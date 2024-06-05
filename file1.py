@@ -27,6 +27,7 @@
 #dictionary
 d={
     'name' : 'Devana',
+    'place' : 'kadavanthara',
     'age' : 21,
     'subject' : {
         'maths' : 55,
@@ -40,3 +41,5 @@ print(d.get("age"))
 #d["subject"]["maths"] = 67
 d.get("subject").update({"maths":87})
 print(d['subject'])
+d.pop("age")
+print(d)
