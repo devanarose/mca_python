@@ -1,3 +1,3 @@
-a=10
-b=20
-print(a+b)
+#type of the variable
+a=12.2
+print(type(a))
