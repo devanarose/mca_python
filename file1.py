@@ -44,7 +44,7 @@
 # d.pop("age")
 # print(d)
 
-
+                            #list operations
 listt=[1.0,2,3,4,5,('a','b','c')]
 print(listt[0])
 listt[0] = 'banana'
