@@ -34,4 +34,5 @@ d={
         'computer' : 78
     }
 }
-
+print(d['name'])
+print(d['subject'])
