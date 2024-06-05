@@ -45,10 +45,16 @@
 # print(d)
 
                             #list operations
-listt=[1.0,2,3,4,5,('a','b','c')]
-print(listt[0])
-listt[0] = 'banana'
-print(listt)
-print(len(listt))
-mylist = listt.copy() #mylist is independent copy of listt, therefore changes in one list wont change the other lists
-print("copied list : ",mylist)
+# listt=[1.0,2,3,4,5,('a','b','c')]
+# print(listt[0])
+# listt[0] = 'banana'
+# print(listt)
+# print(len(listt))
+# mylist = listt.copy() #mylist is independent copy of listt, therefore changes in one list wont change the other lists
+# print("copied list : ",mylist)
+
+
+set1 = {1,2,3,4,5}
+set2 ={'a','b','c','d',21,22,23,'a',22,'23'} #unordered, string value will be repeated
+print(set1)
+print(set2)
