@@ -7,6 +7,10 @@
 #print(type(str))
 
 #concat 2 stings
-firstname = 'Devana '
-lastname = 'Rose Emmanuel'
-print("My name is ",firstname+lastname)
+# firstname = 'Devana '
+# lastname = 'Rose Emmanuel'
+# print("My name is ",firstname+lastname)
+
+#sequence type (list)
+# list = ['devana','rose','emmanuel']
+# print(list)
