@@ -37,3 +37,6 @@ d={
 print(d['name'])
 print(d['subject'])
 print(d.get("age"))
+#d["subject"]["maths"] = 67
+d.get("subject").update({"maths":87})
+print(d['subject'])
