@@ -50,3 +50,5 @@ print(listt[0])
 listt[0] = 'banana'
 print(listt)
 print(len(listt))
+mylist = listt.copy()
+print("copied list : ",mylist)
