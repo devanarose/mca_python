@@ -36,3 +36,4 @@ d={
 }
 print(d['name'])
 print(d['subject'])
+print(d.get("age"))
