@@ -50,5 +50,5 @@ print(listt[0])
 listt[0] = 'banana'
 print(listt)
 print(len(listt))
-mylist = listt.copy()
+mylist = listt.copy() #mylist is independent copy of listt, therefore changes in one list wont change the other lists
 print("copied list : ",mylist)
