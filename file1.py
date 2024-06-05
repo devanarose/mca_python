@@ -11,6 +11,27 @@
 # lastname = 'Rose Emmanuel'
 # print("My name is ",firstname+lastname)
 
-#sequence type (list)
-# list = ['devana','rose','emmanuel']
-# print(list)
+ #sequence type (list)
+# l = ['devana','rose','emmanuel']
+# print(l)
+# number = [1,2,3,4,5]
+# print(number)
+# print(type(l))
+# print(type(number))
+# k = list((1.0,2,3,4,5))
+# print(k)
+# print(type(k))
+# listt=[1.0,2,3,4,5,('a','b','c')]
+# print(listt)
+
+#dictionary
+d={
+    'name' : 'Devana',
+    'age' : 21,
+    'subject' : {
+        'maths' : 55,
+        'english' :66,
+        'computer' : 78
+    }
+}
+
