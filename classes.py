@@ -1,11 +1,15 @@
 class mca_sem : 
     name = "revathi"
-    namee = "merin"
+    namee = "merin and gracen"
+    def duties(self) :
+        self.d = "track placement status"
+        print(self.d)
 
 class_rep = mca_sem()
 print("class rep : ",class_rep.name)
 placement_rep = mca_sem()
 print("placement rep : ",placement_rep.namee)
+placement_rep.duties()
 
 
 # class mca_sem3 :
