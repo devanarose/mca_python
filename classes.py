@@ -1,8 +1,11 @@
 class mca_sem : 
     name = "revathi"
+    namee = "merin"
 
-rep1 = mca_sem()
-print(rep1.name)
+class_rep = mca_sem()
+print("class rep : ",class_rep.name)
+placement_rep = mca_sem()
+print("placement rep : ",placement_rep.namee)
 
 
 # class mca_sem3 :
