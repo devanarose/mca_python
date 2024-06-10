@@ -18,4 +18,4 @@ match inp:
     case 2: print(val1 - val2)
     case 3: print(val1 * val2)
     case 4: print(val1 / val2) 
-    case _ : print("invalid choice") 
+    case _ : print("invalid choice")
