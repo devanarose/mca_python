@@ -34,4 +34,8 @@ class cow :
 cat().printt()
 dog().printt()
 cow().printt()
+
     
+import datetime
+x = datetime.datetime.now()
+print(x)
