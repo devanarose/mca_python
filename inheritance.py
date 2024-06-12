@@ -26,7 +26,7 @@ class cat :
         print("meow")
 class dog :
     def printt(self):
-        print("bow bow")
+        print("bark")
 class cow :
     def printt(self):
         print("moooo")
