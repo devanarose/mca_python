@@ -19,7 +19,7 @@
 # c = cat("punchi","ragdoll")
 # c.printname()
 
-
+#polymorphism
 
 class cat :
     def printt(self):
