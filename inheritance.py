@@ -35,7 +35,11 @@ cat().printt()
 dog().printt()
 cow().printt()
 
-    
-import datetime
-x = datetime.datetime.now()
-print(x)
+import json
+# import datetime
+# x = datetime.datetime.now()
+# print(x)
+
+n = '{"name":"devana", "course" : "mca"}'
+a = json.loads(n)
+print(type(a))
