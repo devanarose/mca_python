@@ -8,7 +8,7 @@ class animal :
 
 class cat(animal):
     def __init__(self,name,breed):
-        animal.__init__(self,name,breed)
+        super().__init__(name,breed)
         self.sound="MEOW"
     
     def printname(self):
