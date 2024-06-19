@@ -12,8 +12,8 @@ def occurences(str,char):
     return str.count(char)
 def replace_string(str,char1,char2):
     return str.replace(char1,char2)
-def upper(str):
-    return str.upper(str)
+def uupper(str):
+    return str.upper()
 
 while True:
     print("\nString Operations Menu:")
@@ -42,6 +42,6 @@ while True:
         print("new string : {r}")
     elif choice == 4:
         str = input("Enter the main string in lower case: ")
-        u = upper(str)
+        u = uupper(str)
         print(u)
         break 

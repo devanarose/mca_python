@@ -1,0 +1,27 @@
+In recent years, computer technology has developed very rapidly, and the hardware 
+conditions are getting better and better. The time used to train deep neural networks 
+has been greatly reduced. Deep learning is rapidly becoming an important hotspot of 
+scientific research. Deep learning technology is widely used in digital recognition, 
+speech recognition, unmanned driving, image recognition, and other fields.  
+The new generation of artificial intelligence technology represented by deep learning 
+is gradually penetrating people's lives and promoting the development of society. As 
+a representative of deep learning technology, the convolutional neural network has 
+also developed rapidly in recent years.  
+To improve the accuracy of cat breed classification and enable more people to clearly 
+understand cat species, this paper cites and compares different deep learning models, 
+and compares the performance of VGGNet, Inception-v3, and the optimized deep 
+learning model in cat breed recognition. From the experimental results, the accuracy 
+of the improved model is about 84%, which is higher than other models. 
+Another objective of cat breed detection using Convolutional Neural Networks 
+(CNNs) is to accurately classify a given cat image into one of several predefined cat 
+breeds. This involves training the CNN on a large dataset of labeled cat images and 
+using the trained model to make predictions on new, unseen cat images. 
+The ultimate goal is to build a model that can accurately identify the breed of a cat 
+from an image with high accuracy. This can have several applications, such as 
+assisting pet adoption centers in matching potential adopters with the right breed of 
+cat, determining the breed of cats in animal shelters and veterinary clinics, and 
+identifying the breed of cats in cat shows and competitions. 
+Additionally, cat breed detection can also contribute to research and development in 
+the fields of animal behavior, genetics, and health, as well as play a role in pet 
+insurance by helping to determine the likelihood of certain breed-specific health 
+conditions.
