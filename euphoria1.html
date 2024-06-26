@@ -33,27 +33,42 @@
  
   <header>
     <h1>My Website</h1>
-    <nav>
+    <!-- <nav>
       <a href="#">Home</a>
       <a href="#">About</a>
       <a href="#">Contact</a>
-    </nav>
+    </nav> -->
   </header>
-  <form>
+  <form id = "form">
     <div class="mb-3">
       <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <input type="email" name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     </div>
     <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
+      <label for="exampleInputPassword1" class="form-label">Event Name</label>
+      <input type="text" class="form-control" name="Event name" id="exampleInputPassword1">
+      <!-- <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown link
+        </a>
+      
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">GRAND HACKATHON</a></li>
+          <li><a class="dropdown-item" href="#">WEBVOLUTION</a></li>
+          <li><a class="dropdown-item" href="#">E-RUSH</a></li>
+        </ul>
+      </div> -->
     </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">COLLEGE NAME</label>
+      <input type="TEXT" class="form-control" name="College" id="examplecollege" aria-describedby="">
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">GROUP NAME</label>
+      <input type="TEXT" class="form-control" name="Group name" id="examplegroupname" aria-describedby="">
+    </div>
+
+    <button type="submit" class="btn btn-primary" id="submit">Submit</button>
   </form>
 </body>
 </html>
